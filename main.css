@@ -120,4 +120,26 @@ position: absolute;
     box-shadow: 0 0 25px 0 #dfb56d;
     
 }
+.section {
+    margin-bottom: 138px;
+}
+.section__title {
+    font-size: 36px; 
+    font-weight: bold;
+    margin-bottom: 45px;
+
+}
+.offers__item {
+    min-height: 470px;
+    background: #fff;
+    border-radius: 4px;
+    display: inline-block;
+    margin-right: 28px;
+    width: 362px;
+}
+.offers__header {
+min-height: 162px;
+margin-bottom: 28px;
+}
+
 
