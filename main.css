@@ -1,4 +1,58 @@
-@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,700;1,300;1,400&display=swap');
-body {
-    font-family: 'Open-Sans', sans-serif;
+body{
+    font-family: "Open-Sans", Helvetica, sans-serif;
+    color: #fff;
+    font-size: 16px;
+    line-height: 1.42 ;
+    background: #29282D;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+a{
+    color: inherit;
+}
+
+ul {
+padding: 0;
+margin: 0;
+
+}
+ul li {
+    list-style-type: none;
+}
+
+.container {
+    margin: 0 auto;
+    width: 1150px;
+}
+.header {
+height: 120px;
+position: relative;
+
+}
+
+.logo {
+
+    display: block;
+    position: absolute;
+    top: 57px;
+    left: 0px;
+}
+
+.menu   {
+top: 65px;
+left: 250px;
+position: absolute;
+
+}
+
+.contacts {
+    position: absolute;
+    top: 48px;
+    right: 0px;
+
+}
+
+.menu__item {
+    display: inline-block;
 }
