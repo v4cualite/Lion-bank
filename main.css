@@ -137,6 +137,9 @@ position: absolute;
     margin-right: 28px;
     width: 362px;
 }
+.offers__item:last-child{
+    margin-right: 0px;
+}
 .offers__header {
 min-height: 162px;
 margin-bottom: 28px;
