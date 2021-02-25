@@ -139,6 +139,7 @@ position: absolute;
     display: inline-block;
     margin-right: 28px;
     width: 362px;
+    color: #010001;
 }
 .offers__item:last-child{
     margin-right: 0px;
@@ -146,11 +147,39 @@ position: absolute;
 .offers__header {
 min-height: 162px;
 margin-bottom: 28px;
+position: relative;
 }
 
 
 .offers__content {
     padding: 36px 30px;
+    
 }
+.offers__title {
+font-weight: bold;
+font-size: 24px;
+margin-bottom: 30px;
+}
+.offers_prices-sell {
+    display: inline-block;
+    vertical-align: top;
+    width: 115px;
+    margin-right: 30px;
 
+}
+.offers_prices-sell:last-child{
+    margin-right: 0;
+}
+.offer__price {
+font-size: 36px;
+}
+.offers__price-desc {
+    color: #333;
+}
+.offers_prices {
+    margin-bottom: 50px;
+}
+.offers__btn_wrapper {
+    text-align: center;
+}
 
