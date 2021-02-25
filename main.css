@@ -24,6 +24,9 @@ h1,h2,h3,h4,h5,h6 {
     margin: 0;
     font-weight: normal;
 }
+* {
+    box-sizing: border-box;
+}
 
 .container {
     margin: 0 auto;
@@ -143,6 +146,11 @@ position: absolute;
 .offers__header {
 min-height: 162px;
 margin-bottom: 28px;
+}
+
+
+.offers__content {
+    padding: 36px 30px;
 }
 
 
