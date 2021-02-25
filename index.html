@@ -3,20 +3,19 @@
 
 <head>
     <meta charset="UTF-8">
-    <title>Lion Bank</title>
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="main.css">
+    <link rel="stylesheet" href="/main.css">
+    <title>Document</title>
 </head>
 
 <body>
-    <!-- Обёртка -->
     <div class="wrapper">
         <section class="hero">
             <div class="container">
                 <header class="header">
                     <a href="/" class="logo">
-                        <img src="./img/logo.png" alt="lion bank logo" class="logo__pic">
+                        <img src="./img/logo.png" alt="Lion logo" class="logo">
                     </a>
                     <nav class="menu">
                         <ul class="menu__list">
@@ -25,15 +24,15 @@
                             <li class="menu__item"><a href="#" class="menu__link">Отзывы</a></li>
                         </ul>
                     </nav>
-                    <adress class="contacts">
-                        <a href="tel: +78007003030" class="contacts__phone">8 800 700 30 30</a>
-                        <div class="contacts__workhours">График работы</div>
-                    </adress>
+                    <address class="contacts">
+                        <a href="tel:+78007003030" class="contacts__phone">8 800 700 30 30</a>
+                        <div class="contacts__dropdown-title">График Работы</div>
+                    </address>
                 </header>
                 <div class="hero__content">
-                    <div class="hero__text_section">
+                    <div class="hero__text-section">
                         <h1 class="hero__title">Не отказывай себе в желании быть первым</h1>
-                        <h4 class="hero__sub">Банк с львиным характером</h4>
+                        <h4 class="hero__subtitle">Банк с львиным характером</h4>
                         <a href="#" class="btn">Подробнее</a>
                     </div>
                 </div>
@@ -41,69 +40,64 @@
         </section>
         <section class="section">
             <div class="container">
-                <h2 class="section__title">Лучшие предложения банка</h2>
-                <ul class="offers">
+                <h2 class="secrion__title">Лучшие предложения банка</h2>
+                <Ul class="offers">
                     <li class="offers__item">
                         <div class="offers__header">
-                            <img src="./img/card_grey.png" alt="">
+                            <img src="/img/card_grey.png" alt="">
                         </div>
                         <div class="offers__content">
                             <h3 class="offers__title">Карта «Базовая»</h3>
-                            <div class="offers_prices">
-                                <div class="offers_prices-sell"></div>
-                                <div class="offers__price">60 Р.-</div>
-                                <div class="offers__price-desc">Обслуживание Карты</div>
-                            </div>
-                            <div class="offers_prices-sell"></div>
-                            <div class="offers__price">до 4 %</div>
-                            <div class="offers__price-desc">Кэшбек за любимые покупки</div>
-                            <a href="#" class="btn">Подробнее</a>
+                            <div class="offers__prices">
+                                <div class="offers_prices-cell">
+                                    <div class="offers__price">60 Р.-</div>
+                                    <div class="offers__price-desc">Обслуживание карты
+                                    </div>
+                                    <div class="offers_prices-cell">
+                                        <div class="offers__price">до 4%</div>
+                                        <div class="offers__price-desc">Кэшбэк за любые покупки
+                                        </div>
+                                    </div>
+                                    <a href="#" class="btn">Подробнее</a>
                     <li class="offers__item">
-                        <div class="offers__header">
-                            <img src="./img/card_blue.png" alt="">
-                        </div>
+                        <div class="offers__header"><img src="/img/card_blue.png" class="offers__header-img" alt=""></div>
                         <div class="offers__content">
                             <h3 class="offers__title">Карта «Оптима»</h3>
-                            <div class="offers_prices">
-                                <div class="offers_prices-sell"></div>
-                                <div class="offers__price">90 Р.-</div>
-                                <div class="offers__price-desc">Обслуживание Карты</div>
-                            </div>
-                            <div class="offers_prices-sell"></div>
-                            <div class="offers__price">до 5 %</div>
-                            <div class="offers__price-desc">Кэшбек за любимые покупки</div>
-                            <a href="#" class="btn">Подробнее</a>
+                            <div class="offers__prices">
+                                <div class="offers_prices-cell">
+                                    <div class="offers__price">90Р.-</div>
+                                    <div class="offers__price-desc">Обслуживание карты
+                                    </div>
+                                    <div class="offers_prices-cell">
+                                        <div class="offers__price">до 5%</div>
+                                        <div class="offers__price-desc">Кэшбэк за любые покупки
+                                        </div>
+                                    </div>
+                                    <a href="#" class="btn">Подробнее</a>
                     <li class="offers__item">
                         <div class="offers__header">
-                            <img src="./img/card_gold.png" alt="">
+                            <img src="/img/card_gold.png" alt="">
                         </div>
                         <div class="offers__content">
                             <h3 class="offers__title">Карта «Платинум»</h3>
-                            <div class="offers_prices">
-                                <div class="offers_prices-sell"></div>
-                                <div class="offers__price">490 Р.-</div>
-                                <div class="offers__price-desc">Обслуживание Карты</div>
+                            <div class="offers__prices">
+                                <div class="offers_prices-cell">
+                                    <div class="offers__price">490 Р.-</div>
+                                    <div class="offers__price-desc">Обслуживание карты
+                                    </div>
+                                    <div class="offers_prices-cell">
+                                        <div class="offers__price">до 6%</div>
+                                        <div class="offers__price-desc">Кэшбэк за любые покупки
+                                        </div>
+                                    </div>
+                                    <a href="#" class="btn">Подробнее</a>
+                                </div>
                             </div>
-                            <div class="offers_prices-sell"></div>
-                            <div class="offers__price">до 6 %</div>
-                            <div class="offers__price-desc">Кэшбек за любимые покупки</div>
-                            <a href="#" class="btn">Подробнее</a>
                     </li>
-                </ul>
+                </Ul>
             </div>
         </section>
-        <!--Карты  -->
-        <div></div>
-        <!--Новости  -->
-        <div></div>
-        <!-- страницы -->
-        <div></div>
-        <!--о банке  -->
-        <div></div>
-        <!-- подвал -->
-        <footer></footer>
     </div>
-
 </body>
 
 </html>
