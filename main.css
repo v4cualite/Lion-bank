@@ -42,6 +42,11 @@ left: 0;
      top: 48px;
      right: 0px;    
  }
+ .contacts__desc {
+     color: #999;
+     font-size: 11px;
+
+ }
  .menu__item {
      display: inline-block;
      vertical-align: middle;
@@ -72,6 +77,10 @@ left: 0;
     text-decoration: underline;
     color:#dfb56d ;
 }
+.hero {
+    
+    background-image: url(./img/lion-header\ 1.png);
+}
 .hero__text-section {
     width: 400px;
 
@@ -91,6 +100,9 @@ h1,h2,h3,h4,h5,h6 {
     margin: 0;
     font-weight: normal;
     margin-bottom: 45px;
+}
+p{
+    margin-top: 0;
 }
 
 *{
@@ -283,4 +295,92 @@ opacity: .4;
     font-weight: bold;
     line-height: 32px;
 
+}
+.about:before, .about__desc{
+    display: inline-block;
+    vertical-align: top;
+}
+
+.about:before  {
+content: "";
+width: 488px;
+height: 502px;
+background: url("./img/chess.png") center center / cover no-repeat;
+border-radius: .5%;
+
+}
+.about__desc {
+    background: #202123;
+    padding: 80px 98px;
+    width: 780px;
+    margin-left: -142px;
+    margin-top: 166px;
+}
+.about__title {
+    font-weight: bold;
+    font-size: 36px;
+    margin-bottom: 40px;
+}
+.about__desc-text {
+    margin-bottom: 42px;
+}
+.about__desc-text p{
+    margin-bottom: 20px;
+
+}
+.about__desc-text p:last-child {
+    margin-bottom: 0;
+}
+
+.footer-container__content {
+    border-top: 1px solid #353538;
+}
+.footer {
+    height: 152px;
+    position: relative;
+
+}
+.social__item-{
+    display: inline-block;
+    vertical-align: middle;
+    margin-right: 10px;
+}
+.socials {
+    position: absolute;
+    top: 53px;
+    right: 300px;
+
+}
+
+.social__item:last-child{
+    margin-right: 0;
+}
+.socials__link {
+    display: block;
+    text-decoration: none;
+    width: 36px;
+    height: 36px;
+    background: center center no-repeat;
+
+
+}
+.socials__item--icon--tg .socials__link {
+    background-image: url(./img/telegram.png);}
+.socials__item--icon--tg .socials__link:hover {
+    background-image: url(./img/telegram-hover.png);
+}
+.socials__item--icon--vk .socials__link {
+    background-image: url(./img/vk.png);}
+.socials__item--icon--vk .socials__link:hover {
+    background-image: url(./img/vk-hover.png);
+}
+.socials__item--icon--fb .socials__link {
+    background-image: url(./img/f.png);}
+.socials__item--icon--fb .socials__link:hover {
+    background-image: url(./img/f-hover.png);
+}
+.socials__item--icon--inst .socials__link {
+    background-image: url(./img/in.png);}
+.socials__item--icon--inst .socials__link:hover {
+    background-image: url(./img/in-hover.png);
 }
