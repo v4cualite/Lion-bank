@@ -77,9 +77,7 @@ left: 0;
     text-decoration: underline;
     color:#dfb56d ;
 }
-.hero {
-    
-    background-image: url(./img/lion-header\ 1.png);
+
 }
 .hero__text-section {
     width: 400px;
@@ -104,10 +102,10 @@ h1,h2,h3,h4,h5,h6 {
 p{
     margin-top: 0;
 }
-
 *{
     box-sizing: border-box;
 }
+.main-page-wrapper { background: url("./img/lion-header_1.png") center top no-repeat, url("./img/bottom_pic.png") right bottom no-repeat;}
 .btn {
     
     border-radius: 4px;
