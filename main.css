@@ -150,7 +150,11 @@ margin-bottom: 28px;
 position: relative;
 }
 
-
+.offers__header-img{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+}
 .offers__content {
     padding: 36px 30px;
     
