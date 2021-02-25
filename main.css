@@ -154,6 +154,8 @@ position: relative;
     position: absolute;
     left: 50%;
     top: 50%;
+    margin-left: -44px ;
+    margin-top: -32px;
 }
 .offers__content {
     padding: 36px 30px;
@@ -186,4 +188,3 @@ font-size: 36px;
 .offers__btn_wrapper {
     text-align: center;
 }
-
