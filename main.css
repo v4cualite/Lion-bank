@@ -108,7 +108,7 @@ p{
 }
 .main-page-wrapper { 
 
-    background: url("./img/lion-header_1.png") center top no-repeat, url("./img/bottom_pic.png") bottom right no-repeat;
+    background: url("./img/lion-header_1.png") center top no-repeat, url("./img/bottom_pic.png") bottom right 307px no-repeat;
     
 }
 .btn {
