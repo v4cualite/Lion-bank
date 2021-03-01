@@ -106,7 +106,11 @@ p{
 *{
     box-sizing: border-box;
 }
-.main-page-wrapper { background: url("./img/lion-header_1.png") center top no-repeat, url("./img/bottom_pic.png") right bottom no-repeat;}
+.main-page-wrapper { 
+
+    background: url("./img/lion-header_1.png") center top no-repeat, url("./img/bottom_pic.png") bottom right no-repeat;
+    
+}
 .btn {
     
     border-radius: 4px;
