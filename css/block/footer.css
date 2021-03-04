@@ -1,0 +1,15 @@
+.footer-container__section{
+    height: 152px;
+    margin-top: 12px;
+}
+.footer-container__content {
+border-top: 1px solid #353538;
+}
+.footer { 
+position: relative;}
+.inner-footer__container {
+padding: 45px 0;
+}
+.inner-footer {
+margin-top: auto;
+}
