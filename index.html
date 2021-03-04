@@ -12,9 +12,9 @@
 <body>
     <div class="wrapper main-page-wrapper">
         <section class="hero">
-            <div class="container">
+            <div class="container hero__container">
                 <header class="header">
-                    <a href="/" class="logo">
+                    <div class="header__col"><a href="/" class="logo">
                         <img src="./img/logo.png" alt="Lion logo" class="logo">
                     </a>
                     <nav class="menu">
@@ -24,10 +24,14 @@
                             <li class="menu__item"><a href="#" class="menu__link">Отзывы</a></li>
                         </ul>
                     </nav>
-                    <address class="contacts">
+                </div>
+                    <div class="header__col header__col--align--right">
+                        <address class="contacts">
                         <a href="tel:+78007003030" class="contacts__phone">8 800 700 30 30</a>
                         <div class="contacts__dropdown-title">График Работы</div>
                     </address>
+                </div>
+                    
                 </header>
                 <div class="hero__content">
                     <div class="hero__text-section">
@@ -106,21 +110,21 @@
         <div class="container">
             <h2 class="section__title">Новости и акции</h2>
             <ul class="news">
-                <li class="news__item">
+                <li class="news__item single-news">
                     <img src="./img/phone.png" alt="Мобильное приложение" class="news__cover">
-                    <div class="news__text-content">
-                        <time class="news__date">Февраль 2021</time>
-                        <div class="news__title">Удобное мобильное приложение</div>
-                        <div class="news__desc">Хороший банк, хорошие условия
+                    <div class="single-news__text-content">
+                        <time class="single-news__date">Февраль 2021</time>
+                        <div class="single-news__title">Удобное мобильное приложение</div>
+                        <div class="single-news__desc">Хороший банк, хорошие условия
                         </div>
                     </div>
                 </li>
-                <li class="news__item">
+                <li class="news__item single-news">
                     <img src="./img/mountains.png" alt="Мобильное приложение" class="news__cover">
-                    <div class="news__text-content">
-                        <time class="news__date">Февраль 2021</time>
-                        <div class="news__title">Копите на поездку? Откройте счёт!</div>
-                        <div class="news__desc">Хороший банк, хорошие условия. Откладывайте деньги!
+                    <div class="single-news__text-content">
+                        <time class="single-news__date">Февраль 2021</time>
+                        <div class="single-news__title">Копите на поездку? Откройте счёт!</div>
+                        <div class="single-news__desc">Хороший банк, хорошие условия. Откладывайте деньги!
                             Наш банк самый лучший банк в мире!
                         </div>
                     </div>
@@ -156,18 +160,20 @@
         </div>
     </section>
     <footer class="footer-container">
-        <div class="container footer-container__content">
-            <div class="footer footer-container__section">
-                <a href="/" class="logo">
-                    <img src="./img/logo.png" alt="Lion logo" class="logo">
-                </a>
-                <nav class="menu">
-                    <ul class="menu__list">
-                        <li class="menu__item"><a href="#" class="menu__link">Главная</a></li>
-                        <li class="menu__item menu__item--active"><a href="#" class="menu__link">Услуги</a></li>
-                        <li class="menu__item"><a href="#" class="menu__link">Отзывы</a></li>
-                    </ul>
-                </nav>
+        <div class="footer">
+            <div class="footer__col"><a href="/" class="logo">
+                <img src="./img/logo.png" alt="Lion logo" class="logo">
+            </a>
+            <nav class="menu">
+                <ul class="menu__list">
+                    <li class="menu__item"><a href="#" class="menu__link">Главная</a></li>
+                    <li class="menu__item menu__item--active"><a href="#" class="menu__link">Услуги</a></li>
+                    <li class="menu__item"><a href="#" class="menu__link">Отзывы</a></li>
+                </ul>
+            </nav>
+        </div>
+            <div class="footer__col footer__col--align--right">
+                
                 <ul class="socials">
                     <li class="socials__item socials__item--icon--tg">
                         <a href="" class="socials__link"></a>
