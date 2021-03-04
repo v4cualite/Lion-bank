@@ -1,10 +1,12 @@
+.offers {
+  display: flex;
+  justify-content: space-between;
+}
 .offers__item {
   min-height: 470px;
   background: #fff;
   border-radius: 4px;
-  display: inline-block;
-  margin-right: 28px;
-  width: 362px;
+  width: calc(100% / 3 - 18px);
   overflow: hidden;
 }
 .offers__item:last-child {
@@ -52,10 +54,9 @@
   margin-bottom: 30px;
 }
 .offers__prices-cell {
-  display: inline-block;
-  vertical-align: top;
-  width: 115px;
-  margin-right: 30px;
+  display: flex;
+  justify-content: space-between;
+  margin-right: 25px;
 }
 .offers__prices-cell:last-child {
   margin-right: 0;
@@ -72,5 +73,6 @@
   margin-bottom: 50px;
 }
 .offers__btn-wrapper {
-  text-align: center;
+  display: flex;
+  justify-content: center;
 }

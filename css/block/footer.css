@@ -1,3 +1,4 @@
+
 .footer-container__section{
     height: 152px;
     margin-top: 12px;
@@ -6,7 +7,21 @@
 border-top: 1px solid #353538;
 }
 .footer { 
-position: relative;}
+height: 140px;
+position: relative;
+margin-top: 12px;
+display: flex;
+align-items: center;
+justify-content: space-between;
+}
+
+.footer__col {
+    display: flex;
+    align-items: center;
+}
+.footer__col--aling--right {
+    justify-content: flex-end;
+}
 .inner-footer__container {
 padding: 45px 0;
 }

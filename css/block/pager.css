@@ -1,5 +1,7 @@
 .pager {
-    text-align: center;
+    align-items: center;
+    display: flex;
+    justify-content: center;
 
 }
 .pager--theme--light {
@@ -14,17 +16,16 @@
     background: #353538;
 }
 
-.pager__display,.pager__list {
-    display: inline-block;
-    vertical-align: middle;
-}
 .pager__display {
     margin-right: 26px;
 }
 .pager__item {
-    display: inline-block;
-    vertical-align: middle;
-
+    
+text-align: center;
+}
+.pager__list {
+display: flex;
+align-items: center;
 }
 .pager__item--active .pager__link {
     background: #000;

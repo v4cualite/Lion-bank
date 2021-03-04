@@ -1,15 +1,19 @@
+.about {
+    display: flex;
+}
 .about:before  {
     content: "";
     width: 488px;
     height: 502px;
-    background: url("../../img/chess.png") center center / cover no-repeat;
+    background: url("/img/chess.png") center center / cover no-repeat;
     border-radius: .5%;
+    display: block;
     
     }
     .about__desc {
         background: #202123;
         padding: 80px 98px;
-        width: 780px;
+        max-width: 780px;
         margin-left: -142px;
         margin-top: 166px;
     }
@@ -29,6 +33,5 @@
         margin-bottom: 0;
     }
     .about:before, .about__desc{
-        display: inline-block;
-        vertical-align: top;
+        display: block
     }

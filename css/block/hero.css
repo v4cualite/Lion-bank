@@ -1,5 +1,5 @@
 .hero__text-section {
-    width: 400px;
+    width: 38%;
 
 }
 .hero__title { 
@@ -12,4 +12,10 @@
     font-size: 18px;
     color:#dfb56d 
 
+}
+.hero__container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    min-height: 600px;
 }
