@@ -21,6 +21,30 @@ background: #202123;
 color: #fff;
 
 }
+.btn--color--grey {
+    background: #8d8d8d;
+}
+.btn--color--grey:hover {
+    background: #202123;
+}
 .btn--color--black:hover {
     background: #dfb56d;
+}
+button{
+    background: transparent;
+    border: none;
+    cursor: pointer;
+}
+.form__btns {
+    display: flex;
+    justify-content: flex-end;
+}
+.form__btn {
+
+    margin-right: 20px;
+    
+}
+.form__btn:last-child {
+    margin-right: 0;
+
 }

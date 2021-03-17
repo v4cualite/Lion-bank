@@ -25,7 +25,7 @@ line-height: 1.7;
 margin-bottom: 30px;
 }
 .service:hover{
-    background: #f5f5f5;
+    background: #f5f5f5ff;
 }
 .service:hover .service__btn{
     background: #dfb56d

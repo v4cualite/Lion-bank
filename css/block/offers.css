@@ -16,10 +16,10 @@
   background: #a5a5a4;
 }
 .offers__item--theme-blue .offers__header::before {
-  background: blue;
+  background: #556180;
 }
 .offers__item--theme-gold .offers__header::before {
-  background: gold;
+  background: #D3A557 ;
 }
 .offers__header {
   min-height: 162px;
@@ -62,10 +62,13 @@
   margin-right: 0;
 }
 .offers__price {
+  display: flex;
+  align-items: center;
   font-size: 36px;
   font-weight: bold;
 }
 .offers__price-desc {
+  
   color: #666666;
   font-size: 16px;
 }
