@@ -3,7 +3,7 @@
     flex-wrap: wrap;
 }
 .partners__item{
-    margin-left: 0;
+    margin-left: 15px;
     
 }
 .partners__item :nth-child(4n+1) {
