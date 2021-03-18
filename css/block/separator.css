@@ -29,6 +29,10 @@ background: #fff;
 padding: 22px 30px;
 color: #202123;
 }
+.form__input:focus{
+    border: 1px solid  #E5C288;
+    background: #f4f5f5;
+}
 .form__input:last-child{
 margin-right: 30px;
 }
@@ -67,4 +71,7 @@ background: #c7e9d0 ;
     margin-bottom: 10px;
     margin-right: 10px;
 
+}
+.form__input {
+    outline: none;
 }
