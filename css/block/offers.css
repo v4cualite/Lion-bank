@@ -19,7 +19,7 @@
   background: #556180;
 }
 .offers__item--theme-gold .offers__header::before {
-  background: #D3A557 ;
+  background: #d3a557;
 }
 .offers__header {
   min-height: 162px;
@@ -45,13 +45,15 @@
   margin-top: -32px;
 }
 .offers__content {
-  padding: 36px 30px;
+  padding: 15px 30px;
   color: #010001;
+  margin-bottom: -200px;
 }
 .offers__title {
   font-weight: bold;
   font-size: 24px;
-  margin-bottom: 30px;
+  margin-bottom: 14px;
+  margin-top: -48px;
 }
 .offers__prices-cell {
   display: flex;
@@ -69,7 +71,6 @@
   margin-right: 32px;
 }
 .offers__price-desc {
-  
   color: #666666;
   font-size: 16px;
 }

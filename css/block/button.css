@@ -9,7 +9,8 @@
     display: inline-block;
 }
 .btn--color--ginger {
-   background: #dfb56d
+   background: #dfb56d;
+   margin-bottom: 186px;
 
 }
 .btn--color--ginger:hover {

@@ -13,9 +13,10 @@
     .about__desc {
         background: #202123;
         padding: 80px 98px;
-        max-width: 780px;
+        max-width: 785px;
         margin-left: -142px;
         margin-top: 166px;
+        max-height: 455px;
     }
     .about__title {
         font-weight: bold;
