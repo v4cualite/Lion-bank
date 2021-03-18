@@ -64,7 +64,3 @@
     color: #202123;
     font-weight: bold;
 }
-.form__row:focus {
-  border: 1px solid  #E5C288;
-  background: #f4f5f5;
-}
