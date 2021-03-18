@@ -5,7 +5,7 @@
     content: "";
     width: 488px;
     height: 502px;
-    background: url("./img/chess.png") center center / cover no-repeat;
+    background: url("../../img/chess.png") center center / cover no-repeat;
     border-radius: .5%;
     display: block;
     
