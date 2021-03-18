@@ -3,7 +3,7 @@
     flex-wrap: wrap;
 }
 .partners__item{
-    margin-left: 15px;
+    margin-left: 46px;
     
 }
 .partners__item :nth-child(4n+1) {
@@ -13,7 +13,7 @@
 .partners__link {
     text-decoration: none;
 display: flex;
-width: 270px;
+width: 230px;
 height: 100px;
 align-items: center;
 justify-content: center;
